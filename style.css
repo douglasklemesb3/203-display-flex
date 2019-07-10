@@ -25,9 +25,20 @@ nav a:hover{
 
 header{
     width: 100%;
-    height: 500px;
+    height: 400px;
     background-image: url(perry2.jpg);
     background-size: cover;
     background-position: center;
-    border-bottom: 10px orange solid; 
+    border-bottom: 10px orange solid;
+}
+
+footer{
+    align-items: center;
+    background-color: orange;
+    height: 200px;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-around;
 }
